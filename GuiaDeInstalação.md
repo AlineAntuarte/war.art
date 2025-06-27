@@ -16,7 +16,7 @@ java -jar robocode-1.9.5.5-setup.jar
 Abra o arquivo para edição:
 
 ————————————————————————————————————————————————————————————————————————————
-gedit ~/robocode/robocode.sh
+gedit ~/Robocode/robocode.sh
 ————————————————————————————————————————————————————————————————————————————
 
 Você verá algo como:
@@ -42,7 +42,7 @@ fi
 
 ### 🔧 Ajuste necessário para Java 21
 
-Modifique essa parte para incluir **`-Djava.security.manager=allow`**, como abaixo:
+Modifique essa parte para incluindo **`-Djava.security.manager=allow`**, como abaixo:
 
 ————————————————————————————————————————————————————————————————————————————
   java \
@@ -59,8 +59,7 @@ Modifique essa parte para incluir **`-Djava.security.manager=allow`**, como abai
     robocode.Robocode "$@"
 ————————————————————————————————————————————————————————————————————————————
 
-Essa mudança é recomendada e até automatizada pelas versões mais novas, mas é bom confirmar manualmente ([sourceforge.net][1], [robowiki.net][2]).
-
+Essa mudança é recomendada e até automatizada pelas versões mais novas, mas é bom confirmar manualmente.
 ---
 
 ## 🛠️ Passo 3 – Salvar e executar
@@ -69,7 +68,7 @@ Essa mudança é recomendada e até automatizada pelas versões mais novas, mas 
 2. No terminal, execute:
 
 ————————————————————————————————————————————————————————————————————————————
-~/robocode/robocode.sh
+~/Robocode/robocode.sh
 ————————————————————————————————————————————————————————————————————————————
 
 Isso deve abrir o Robocode com a interface gráfica.

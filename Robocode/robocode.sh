@@ -23,7 +23,7 @@ cd "${0%/*}" || exit
 
 if [ "$exit_code" -ne 100 ]; then
   # Run Robocode
-  java \
+java \
     -cp "libs/*" \
     -Xmx512M \
     -Xdock:name=Robocode \
@@ -33,6 +33,7 @@ if [ "$exit_code" -ne 100 ]; then
     "--add-opens=java.base/java.lang.reflect=ALL-UNNAMED" \
     "--add-opens=java.desktop/javax.swing.text=ALL-UNNAMED" \
     "--add-opens=java.desktop/sun.awt=ALL-UNNAMED" \
+    -Djava.security.manager=allow \
     robocode.Robocode "$@"
 fi
 
