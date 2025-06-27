@@ -60,6 +60,14 @@ Modifique essa parte para incluindo **`-Djava.security.manager=allow`**, como ab
 ————————————————————————————————————————————————————————————————————————————
 
 Essa mudança é recomendada e até automatizada pelas versões mais novas, mas é bom confirmar manualmente.
+
+Erro Comum
+Na lniha 15, onde está ". ./set_java_options.sh", apague o ponto e espaço, o tornando "./set_java_options.sh".
+Isso previne o erro --> 
+"No such file or directory" ou "cannot open file"
+
+Especificamente, a mensagem completa era:
+/home/aluno/Documentos/war.art/Robocode/robocode.sh: 15: .: cannot open ./set_java_options.sh: No such file
 ---
 
 ## 🛠️ Passo 3 – Salvar e executar
@@ -68,7 +76,7 @@ Essa mudança é recomendada e até automatizada pelas versões mais novas, mas 
 2. No terminal, execute:
 
 ————————————————————————————————————————————————————————————————————————————
-~/Robocode/robocode.sh
+/home/aluno/Documentos/war.art/Robocode/robocode.sh
 ————————————————————————————————————————————————————————————————————————————
 
 Isso deve abrir o Robocode com a interface gráfica.
