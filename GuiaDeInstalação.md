@@ -1,10 +1,10 @@
 ## ✅ Passo 1 – Baixar e instalar
 
-1. Vá até a pasta onde está o arquivo baixado (`robocode-1.9.5.2-setup.jar`).
+1. Vá até a pasta onde está o arquivo baixado (`robocode-1.9.5.5-setup.jar`).
 2. No terminal, execute:
 
 ————————————————————————————————————————————————————————————————————————————
-java -jar robocode-1.9.5.2-setup.jar
+java -jar robocode-1.9.5.5-setup.jar
 ————————————————————————————————————————————————————————————————————————————
 
 3. Isso instala o Robocode em `~/robocode`.
