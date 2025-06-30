@@ -102,7 +102,7 @@ remote: Create a pull request for 'movimento-especial' on GitHub by visiting:
 remote: https://github.com/usuario/repo/pull/new/movimento-especial
 ```
 
-Ou vá até o GitHub, abra a aba **Pull Requests → New Pull Request**, selecione a `base: main` e a `compare: movimento-especial`, adicione título/descrição e clique em **Create Pull Request** ([alvinalexander.com][3], [geeksforgeeks.org][4], [stackoverflow.com][5]).
+Ou vá até o GitHub, abra a aba **Pull Requests → New Pull Request**, selecione a `base: main` e a `compare: movimento-especial`, adicione título/descrição e clique em **Create Pull Request**
 
 ---
 
@@ -120,11 +120,11 @@ Ou vá até o GitHub, abra a aba **Pull Requests → New Pull Request**, selecio
      --body "Descrição do que faz e por que adiciona"
  ———————————————————————————————————————————————————
 
-   Você pode já incluir `--assignee`, `--reviewer`, entre outros ([graphite.dev][6], [docs.github.com][7]).
+   Você pode já incluir `--assignee`, `--reviewer`, entre outros.
 
 * **Listar PRs**: `gh pr list`
 * **Ver PR no navegador**: `gh pr view --web`
-* **Trocar para PR localmente**: `gh pr checkout 123` ([graphite.dev][6])
+* **Trocar para PR localmente**: `gh pr checkout 123`
 
 ---
 
